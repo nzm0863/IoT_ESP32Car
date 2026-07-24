@@ -1,8 +1,6 @@
 #include <WiFi.h>
+#include "ESP32_WIFI_connect/wifi_manager.h"
 #include <ArduinoOTA.h>
-
-const char* ssid = "...";
-const char* password = "...";
 
 // 前
 const int STBY = 33;

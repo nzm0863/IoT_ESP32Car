@@ -37,6 +37,8 @@
  */
 
 #include <ESP32Servo.h>
+#include <WiFi.h>
+#include "ESP32_WIFI_connect/wifi_manager.h"
 
 Servo myservo;  // create servo object to control a servo
 // 16 servo objects can be created on the ESP32
