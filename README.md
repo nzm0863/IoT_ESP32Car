@@ -3,7 +3,7 @@
 Raspberry Piで製作していたラジコンカーが故障したため、
 その部品を一部流用しながら、ESP32を使用して一から製作しているロボットカーです。
 
-![Raspberry Pi Car](img/rasPiCar.jpg)
+![ESP32Car](img/ESP32Car.jpg)
 
 ## 現在の機能
 
@@ -13,7 +13,8 @@ Raspberry Piで製作していたラジコンカーが故障したため、
 
 現在は二階部分（アーム部分）の製作を進めています。
 
-![ESP32Car](img/ESP32Car.jpg)
+![arm](arm.jpg)
+
 
 ## 今後追加予定の機能
 
