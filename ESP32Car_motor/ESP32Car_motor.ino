@@ -1,6 +1,7 @@
 #include <WiFi.h>
-#include "ESP32_WIFI_connect/wifi_manager.h"
-#include <ArduinoOTA.h>
+#include "wifi_config.h"
+#include <wifi_manager.h>
+#include <ota_manager.h>
 
 // 前
 const int STBY = 33;
@@ -29,7 +30,7 @@ const int SW = 4;
 void setup() {
   Serial.begin(115200);
 
-  WiFi.begin(ssid, password);
+  wifiConnect(WIFI_SSID, WIFI_PASSWORD);
 
   pinMode(PWMA, OUTPUT);
   pinMode(AIN1, OUTPUT);
